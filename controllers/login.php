@@ -1,0 +1,17 @@
+<?php
+
+class Login extends Controller {
+
+	function __construct() {
+		parent::__construct();	
+	}
+	
+	function index() {
+		$this->view->render('login/login');
+	}
+        function login(){
+            $this->view->render('login/login');
+        }
+	
+
+}
